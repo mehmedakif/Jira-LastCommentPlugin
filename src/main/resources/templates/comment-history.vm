@@ -1,0 +1,5 @@
+<blockquote>
+<li><b>Issue'ya Ait Son Yorum:</b> $LastComment</li>
+<p><b>Date:</b> $LastCommentDate</p>
+<li><b>Son Change'e Ait Yorum:</b> $Generic</li>
+</blockquote>
