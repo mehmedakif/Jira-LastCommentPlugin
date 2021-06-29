@@ -21,7 +21,7 @@ public class CommentHistory extends AbstractJiraContextProvider {
         contextMap.put("LastComment", issueHistory.getLastComment());
         contextMap.put("LastCommentDate", issueHistory.getLastCommentDate());
         contextMap.put("LastCommentAuthor", issueHistory.getLastCommentAuthor());
-        contextMap.put("Generic", issueHistory.getChangeHistoryList());
+        contextMap.put("Generic", issueHistory.getChangeComment());
 
         return contextMap;
     }

@@ -23,7 +23,7 @@ public class IssueHistory
       this.changeHistoryList = changeHistoryManager.getChangeHistories(issue);
     }
 
-    public String getChangeHistoryList()
+    public String getChangeComment()
     {
         List<GenericValue> changeItems = changeHistoryList.get(changeHistoryList.size()-1).getChangeItems();
         GenericValue lastChange = changeItems.get(changeItems.size()-1);
